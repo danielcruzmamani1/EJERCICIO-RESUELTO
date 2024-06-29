@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mensajes con echo</title>
+</head>
+<body>
+    <h1>Mensajes con echo</h1>
+    <?php
+    // Usando el comando echo para mostrar mensajes
+    echo "<p>Este es un mensaje mostrado con el comando echo.</p>";
+    echo "<p>Los mensajes con echo deben estar encerrados entre comillas dobles.</p>";
+    echo "<p>También puedes mostrar variables con echo, por ejemplo:</p>";
+    $nombre = "Juan";
+    echo "<p>Hola, $nombre. ¡Bienvenido!</p>";
+    ?>
+</body>
+</html>
